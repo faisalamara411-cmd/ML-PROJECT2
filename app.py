@@ -1,8 +1,7 @@
 import streamlit as st
-import numpy as np
-
-st.write("fixed width text")
 st.set_page_config(page_title="CKD", page_icon ="👩‍⚕️")
+
+import numpy as np
 import pickle
 
 with open("chronic_kidney(1).pkl","rb") as file:
